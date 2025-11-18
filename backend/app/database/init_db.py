@@ -1,4 +1,5 @@
 from app.database.connection import engine, Base
+from app.models import User, Portfolio, Holding
 
 
 def init_db():
